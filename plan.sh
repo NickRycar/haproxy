@@ -1,7 +1,7 @@
-pkg_origin=core
+pkg_origin=nrycar
 pkg_name=haproxy
 pkg_description="The Reliable, High Performance TCP/HTTP Load Balancer"
-pkg_version=1.6.11
+pkg_version=1.0.0
 pkg_maintainer='The Habitat Maintainers <humans@habitat.sh>'
 pkg_license=('GPL-2.0' 'LGPL-2.1')
 pkg_source=http://www.haproxy.org/download/1.6/src/haproxy-${pkg_version}.tar.gz
