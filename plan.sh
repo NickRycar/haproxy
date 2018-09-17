@@ -11,6 +11,7 @@ pkg_svc_run='haproxy -f config/haproxy.conf -db'
 pkg_exports=(
   [port]=front-end.port
   [status-port]=status.port
+  [deployment]=deployment
 )
 pkg_exposes=(port status-port)
 pkg_binds=(

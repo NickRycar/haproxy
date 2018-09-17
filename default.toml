@@ -1,6 +1,7 @@
 maxconn = 32
 httpchk = "GET /"
 options = "httpclose"
+deployment = false
 
 [front-end]
 listen = "*"
