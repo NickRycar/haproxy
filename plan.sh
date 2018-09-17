@@ -17,7 +17,7 @@ pkg_exposes=(port status-port)
 pkg_binds=(
   [backend]="port"
 )
-pkg_deps=(core/zlib core/pcre core/openssl)
+pkg_deps=(core/zlib core/pcre core/openssl nrycar/national-parks)
 pkg_build_deps=(
   core/coreutils
   core/gcc
