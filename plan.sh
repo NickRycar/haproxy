@@ -14,8 +14,10 @@ pkg_exports=(
   [deployment]=deployment
 )
 pkg_exposes=(port status-port)
-pkg_binds=(
+pkg_binds_optional=(
   [backend]="port"
+  [backend-blue]="port"
+  [backend-green]="port"
 )
 pkg_deps=(core/zlib core/pcre core/openssl nrycar/national-parks)
 pkg_build_deps=(
